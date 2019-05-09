@@ -12,4 +12,7 @@ func main() {
 		fmt.Println("Uso: conversor <valores> <unidade>")
 		os.Exit(0)
 	}
+
+	var x = 1
+	fmt.Println(x)
 }
