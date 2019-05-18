@@ -4,6 +4,7 @@ import "github.com/kataras/iris"
 
 func main() {
 	app := iris.New()
+
 	app.Get("/ping", func(ctx iris.Context) {
 		ctx.JSON(iris.Map{
 			"message": "pong",
@@ -15,9 +16,9 @@ func main() {
 	})
 
 	app.Get("/ping3", func(ctx iris.Context) {
-		ctx.JSON(iris.Map {
+		ctx.JSON(iris.Map{
 			"message": "hello world",
-			"error": "null",
+			"error":   "null",
 		})
 	})
 
