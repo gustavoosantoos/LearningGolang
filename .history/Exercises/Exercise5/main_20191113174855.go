@@ -5,10 +5,7 @@ import "fmt"
 type newint int
 
 var x newint
-var y int
-
-// Rune é o mesmo que char em C#
-var z rune
+var y int32
 
 func main() {
 	fmt.Println(x)
@@ -19,7 +16,4 @@ func main() {
 
 	y := int(x)
 	fmt.Println(y)
-
-	z = 'C'
-	fmt.Println(z)
 }

@@ -7,9 +7,6 @@ type newint int
 var x newint
 var y int
 
-// Rune é o mesmo que char em C#
-var z rune
-
 func main() {
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
@@ -19,7 +16,4 @@ func main() {
 
 	y := int(x)
 	fmt.Println(y)
-
-	z = 'C'
-	fmt.Println(z)
 }
