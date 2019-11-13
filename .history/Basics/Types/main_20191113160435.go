@@ -4,9 +4,6 @@ import (
 	"fmt"
 )
 
-// WTF?
-type hotdog int
-
 func main() {
 	a1 := 1
 	a2 := "Texto"
@@ -47,8 +44,8 @@ func main() {
 	fmt.Println(a7)
 	fmt.Printf("%T\n", a7)
 
-	// Podemos criar tipos envólucros, como o hotdog acima, que encapsula um int
-	var a8 hotdog = 30
+	// Sprint faz a mesma coisa que o printf mas retorna o format ao inves de plotar no stdout
+
+	a8 := fmt.Sprintf("%#x", a6)
 	fmt.Println(a8)
-	fmt.Printf("%T\n", a8)
 }

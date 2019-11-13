@@ -4,9 +4,6 @@ import (
 	"fmt"
 )
 
-// WTF?
-type hotdog int
-
 func main() {
 	a1 := 1
 	a2 := "Texto"
@@ -46,9 +43,4 @@ func main() {
 
 	fmt.Println(a7)
 	fmt.Printf("%T\n", a7)
-
-	// Podemos criar tipos envólucros, como o hotdog acima, que encapsula um int
-	var a8 hotdog = 30
-	fmt.Println(a8)
-	fmt.Printf("%T\n", a8)
 }
