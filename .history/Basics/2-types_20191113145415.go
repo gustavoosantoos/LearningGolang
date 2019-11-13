@@ -1,0 +1,5 @@
+package maintypes
+
+func main() {
+
+}
