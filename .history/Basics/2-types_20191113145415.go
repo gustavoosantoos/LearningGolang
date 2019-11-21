@@ -1,5 +1,0 @@
-package maintypes
-
-func main() {
-
-}
