@@ -15,4 +15,7 @@ func main() {
 
 	x2 := x1[1:4]
 	fmt.Println(x2)
+
+	x3 := make([]int, 5, 100)
+	fmt.Println(x3, len(x3), cap(x3))
 }
